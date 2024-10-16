@@ -1,0 +1,35 @@
+#administration {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    margin: auto;
+    padding: 0.6rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#administration select {
+    padding: 0.2rem;
+}
+#administration button {
+    margin: auto;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+}
+
+#communes {
+    margin: 0.2rem auto;
+    padding: 0;
+    width: 40%;
+}
+#communes li {
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+}
+#communes li:hover {
+    background-color: rgb(235, 235, 235);
+}
